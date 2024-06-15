@@ -13,7 +13,7 @@ parser.add_argument(
     help='choose dataset')
 parser.add_argument(
     '--seed',
-    default = 5000,
+    default = 1000,
     type = int,
     help='choose the number of align seeds')
 parser.add_argument(
@@ -41,21 +41,21 @@ parser.add_argument(
     default = 100,
     type = int,
     help='choose embedding dimension')
-parser.add_argument( #没有用
+parser.add_argument( 
     '--eta',
     default = 0.3,
     type = float,
     help='choose Hyper-parameter eta')
 
-parser.add_argument( #没有用
+parser.add_argument( 
     '--omega',
     default = 0.3,
     type = float,
     help='choose Hyper-parameter omega')
 parser.add_argument( #没有用
     '--CF_type',
-    # default = "TRO",
-    default = "TROR",
+    default = "TRO",
+    # default = "TROR",
     type = str,
     help='choose CF type')
 args = parser.parse_args()
