@@ -7,8 +7,8 @@ parser.add_argument(
     help='choose gpu device')
 parser.add_argument(
     '--data',
-    # default = 'ICEWS05-15/',
-    default = 'YAGO-WIKI50K/',
+    default = 'ICEWS05-15/',
+    # default = 'YAGO-WIKI50K/',
     type = str,
     help='choose dataset')
 parser.add_argument(
