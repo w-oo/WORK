@@ -52,7 +52,7 @@ parser.add_argument(
     default = 0.3,
     type = float,
     help='choose Hyper-parameter omega')
-parser.add_argument( #没有用
+parser.add_argument( 
     '--CF_type',
     default = "TRO",
     # default = "TROR",
